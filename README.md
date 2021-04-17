@@ -1,5 +1,7 @@
 # drag-demo
 
+# 创建vue项目
+vue create project-name
 ## Project setup
 ```
 npm install
