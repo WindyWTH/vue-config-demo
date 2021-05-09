@@ -86,12 +86,12 @@ function createRequest(service) {
     const defaultConfig = {
       headers: {
         Authorization: token,
-        "Content-Type": "application/json",
+        "Content-Type": "application/json"
       },
       timeout: 5000,
       baseURL: process.env.VUE_APP_API,
       data: {},
-      params: {},
+      params: {}
     };
     const option = Object.assign(defaultConfig, config);
     return service(option);
